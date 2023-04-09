@@ -1,0 +1,49 @@
+﻿@model List<ConfigurationReader.Library.Models.Configuration>
+@{
+    ViewData["Title"] = "Configuration List";
+}
+
+<div class="row" style="justify-content: space-between; margin-bottom:15px;">
+    <h4>Configuration List</h4>
+    @Html.ActionLink("New Configuration", "CreateUpdate","Home",null, new { @class="btn btn-primary float-right"})
+</div>
+
+<div>
+    <table class="table table-striped table-bordered" style="width:100%">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Value</th>
+                <th>IsActive</th>
+                <th>ApplicationName</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Name</td>
+                    <td>@item.Type</td>
+                    <td>@item.Value</td>
+                    <td>@item.IsActive</td>
+                    <td>@item.ApplicationName</td>
+                    <td>@Html.ActionLink("Update","CreateUpdate","Home", new{id=item.Id}, new{@class="btn btn-primary"} )</td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>
+
+@section Scripts{
+    <script>
+
+        $(document).ready(function () {
+            $('.table').DataTable();
+        });
+    </script>
+}

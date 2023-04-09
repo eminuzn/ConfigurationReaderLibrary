@@ -1,0 +1,66 @@
+﻿@model ConfigurationReader.Library.Models.Configuration
+@{
+    ViewData["Title"] = "Configuration List";
+}
+
+<div class="row">
+
+    @using (Html.BeginForm("CreateUpdate", "Home", FormMethod.Post))
+    {
+        @Html.HiddenFor(m=>m.Id)
+
+        <div class="form-group">
+            <label for="Name">Name:</label>
+            @Html.TextBoxFor(m=>m.Name, new { @class = "form-control" })
+        </div>
+
+
+        <div class="form-group">
+            <label for="Type">Type:</label>
+
+
+                @Html.DropDownListFor(m=>m.Type,  new List<SelectListItem> {
+                    new SelectListItem { Value="integer", Text="Integer" },
+                    new SelectListItem { Value="string", Text="String" },
+                    new SelectListItem { Value="double", Text="Double" },
+                    new SelectListItem { Value="boolean", Text="Boolean" },
+                }, new { @class ="form-control"})
+
+
+                
+        </div>
+
+
+        <div class="form-group">
+            <label for="Value">Value:</label>
+            @Html.TextBoxFor(m=>m.Value, new { @class = "form-control" })
+        </div>
+
+        <div class="form-group">
+            <label for="IsActive">IsActive?:</label>
+            @Html.DropDownListFor(m=>m.IsActive,  new List<SelectListItem> {
+        new SelectListItem {
+        Text="Active",
+        Value="true"
+        },
+        new SelectListItem {
+        Text="Inactive",
+        Value="false",
+        },
+        }, new { @class ="form-control"})
+
+        </div>
+
+
+
+        <div class="form-group">
+            <label for="ApplicationName">ApplicationName:</label>
+            @Html.TextBoxFor(m=>m.ApplicationName, new { @class = "form-control" })
+        </div>
+
+        <div class="form-group">
+            <input type="submit" class="btn btn-primary" value="Submit">
+        </div>
+    }
+
+</div>

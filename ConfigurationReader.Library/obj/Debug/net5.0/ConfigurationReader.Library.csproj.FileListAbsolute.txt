@@ -1,0 +1,12 @@
+C:\Users\Administrator\source\repos\ConfigurationReaderCodeCase\ConfigurationReader.Library\bin\Debug\net5.0\ConfigurationReader.Library.deps.json
+C:\Users\Administrator\source\repos\ConfigurationReaderCodeCase\ConfigurationReader.Library\bin\Debug\net5.0\ConfigurationReader.Library.dll
+C:\Users\Administrator\source\repos\ConfigurationReaderCodeCase\ConfigurationReader.Library\bin\Debug\net5.0\ConfigurationReader.Library.pdb
+C:\Users\Administrator\source\repos\ConfigurationReaderCodeCase\ConfigurationReader.Library\obj\Debug\net5.0\ConfigurationReader.Library.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\ConfigurationReaderCodeCase\ConfigurationReader.Library\obj\Debug\net5.0\ConfigurationReader.Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\ConfigurationReaderCodeCase\ConfigurationReader.Library\obj\Debug\net5.0\ConfigurationReader.Library.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\ConfigurationReaderCodeCase\ConfigurationReader.Library\obj\Debug\net5.0\ConfigurationReader.Library.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\ConfigurationReaderCodeCase\ConfigurationReader.Library\obj\Debug\net5.0\ConfigurationReader.Library.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\ConfigurationReaderCodeCase\ConfigurationReader.Library\obj\Debug\net5.0\ConfigurationReader.Library.dll
+C:\Users\Administrator\source\repos\ConfigurationReaderCodeCase\ConfigurationReader.Library\obj\Debug\net5.0\refint\ConfigurationReader.Library.dll
+C:\Users\Administrator\source\repos\ConfigurationReaderCodeCase\ConfigurationReader.Library\obj\Debug\net5.0\ConfigurationReader.Library.pdb
+C:\Users\Administrator\source\repos\ConfigurationReaderCodeCase\ConfigurationReader.Library\obj\Debug\net5.0\ref\ConfigurationReader.Library.dll

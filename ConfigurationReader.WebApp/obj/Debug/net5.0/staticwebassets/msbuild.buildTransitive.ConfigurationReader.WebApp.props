@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\ConfigurationReader.WebApp.props" />
+</Project>
